@@ -1,65 +1,86 @@
-# Interview Journey Assistant
+# Interview Express
 
-## Project info
+**Interview Express** is an all-in-one job preparation web platform built to help job seekers land their dream jobs. It integrates powerful tools like resume building, aptitude testing, DSA practice, mock interviews, and organization-specific analytics—all powered by Supabase for real-time backend functionality.
 
+## 🚀 Features
 
+- 🔐 **User Authentication** via Supabase
+- 📄 **Resume Builder** with PDF export
+- 📊 **Aptitude Test Portal**: Logical, Quantitative, and Verbal reasoning
+- 💻 **DSA Practice Round** with real-time evaluation
+- 🧠 **AI-Powered Mock Interviews** (Gemini AI/ChatGPT-based)
+- 📚 **Study Engine**: Resources based on user’s weak areas
+- 🏢 **Organization Portal** to track and manage candidate progress
+- 📈 **Profile Dashboard** showing individual progress
+- 🎨 Interactive UI with secure data flow via Supabase
 
-## How can I edit this code?
+## 🛠️ Tech Stack
 
-There are several ways of editing your application.
+- **Frontend**: HTML, CSS, JavaScript  
+- **Backend**: Supabase (PostgreSQL, Auth)  
+- **PDF Generation**: [html2pdf.js](https://github.com/eKoopmans/html2pdf)  
+- **AI Integration**: Gemini AI / ChatGPT (planned)  
+- **Hosting**: GitHub Pages (optional for frontend)
 
+## 📂 Folder Structure
 
+Interview-Express-main/
+├── index.html
+├── resume/
+│ ├── templates/
+│ ├── script.js
+├── aptitude/
+├── dsa/
+├── mock-interview/
+├── dashboard/
+├── assets/
+│ ├── css/
+│ ├── js/
+│ └── images/
+├── supabase/
+├── README.md
 
-**Use your preferred IDE**
+## 🧑‍💻 Installation
 
-If you want to work locally using your own IDE, you can clone this repo and push changes.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/Interview-Express.git
+2.Navigate to the project directory:
+    cd Interview-Express
+3.Set up your Supabase project:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Create tables for users, test scores, resume data, etc.
 
-Follow these steps:
+Configure API keys and insert them in relevant files
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Open index.html in your browser (or deploy via GitHub Pages)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Note: Ensure your browser supports JavaScript and CORS is handled if using Supabase locally.
 
-# Step 3: Install the necessary dependencies.
-npm i
+4.🧪 Usage
+Visit the homepage
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Register/Login with Supabase
 
-**Edit a file directly in GitHub**
+Navigate to any tool (Resume Builder, Aptitude Test, DSA Practice)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Track your performance in the dashboard
 
-**Use GitHub Codespaces**
+5.🤝 Contribution
+Fork this repository
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Create your branch (git checkout -b feature/your-feature)
 
-## What technologies are used for this project?
+Commit your changes (git commit -am 'Add feature')
 
-This project is built with .
+Push to the branch (git push origin feature/your-feature)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Create a new Pull Request
 
-## How can I deploy this project?
+---
+6.Licences 
+Would you like me to:
+- Save this as a `README.md` file inside your ZIP?
+- Customize sections like **Your GitHub Repo URL** or **Supabase Table Setup**?
 
-You can deploy this project using services like Netlify, Vercel, or GitHub Pages.
-
-## I want to use a custom domain - is that possible?
-
-Yes, you can use a custom domain by deploying this project to services like Netlify or Vercel that support custom domains.
+Let me know and I’ll generate and modify the file accordingly.
